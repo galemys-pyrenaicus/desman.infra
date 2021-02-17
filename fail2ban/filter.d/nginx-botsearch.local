@@ -1,0 +1,13 @@
+# Fail2Ban filter to match web requests for selected URLs that don't exist
+#
+
+[INCLUDES]
+
+# Load regexes for filtering
+before = botsearch-common.conf
+
+[Definition]
+fail2ban = No such file or directory.* client: <HOST>
+
+ignoreregex = 
+

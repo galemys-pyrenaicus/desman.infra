@@ -1,0 +1,4 @@
+[Definition]
+failregex = No such file or directory.* client: <HOST>.
+ignoreregex=
+datepattern=
